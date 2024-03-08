@@ -8,7 +8,7 @@ export default {
     extend: {},
     fontFamily:{
       inter:["inter"],
-      textstyle:["Bebas"]
+      textstyle:["Bebas Neue"]
     },
   },
   plugins: [],
