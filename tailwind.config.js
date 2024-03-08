@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {},
     fontFamily:{
-      inter:["inter"],
+      smallertext:["lato"],
       textstyle:["Bebas Neue"]
     },
   },
