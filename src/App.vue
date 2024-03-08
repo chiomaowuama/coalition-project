@@ -4,7 +4,7 @@
 </script>
 
 <template>
- <div class="border-2 border-green-800">hi</div>
+ <div class="border-2 border-green-800 text-2xl text-center  font-textstyle font-bold">Hello</div>
 </template>
 
 <style >

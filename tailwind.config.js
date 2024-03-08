@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      inter:["inter"],
+      textstyle:["Bebas"]
+    },
   },
   plugins: [],
 }
