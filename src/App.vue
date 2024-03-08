@@ -1,10 +1,16 @@
 <script setup>
+import HomeView from './views/HomeView.vue'
+
 
 
 </script>
 
 <template>
- <div class="border-2 border-green-800 text-2xl text-center font-oswald font-bold">Hello</div>
+  <div>
+
+    <HomeView />
+   
+  </div>
 </template>
 
 <style >
