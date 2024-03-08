@@ -8,6 +8,7 @@ export default {
     extend: {},
     fontFamily:{
       smallertext:["lato"],
+      oswald:["Oswald"],
       textstyle:["Bebas Neue"]
     },
   },
