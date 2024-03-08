@@ -5,7 +5,7 @@ import navbar from "@/components/navbar.vue";
 <template>
     <main>
         <navbar/>
-        <h1 class="border-2 border-green-800 text-2xl text-center font-oswald font-bold">Hello</h1>
+        <!-- <h1 class="border-2 border-green-800 text-2xl text-center font-oswald font-bold">Hello</h1> -->
 
         
       
