@@ -16,9 +16,11 @@
     background-image: url("@/assets/history-bg.png");
     background-repeat: no-repeat;
    background-size: cover;
+   /* background-position: center; */
 }
 .climb{
     background-image: url("@/assets/footer-bg.png");
     background-repeat: no-repeat;
-   background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
