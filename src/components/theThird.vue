@@ -18,7 +18,7 @@
             </div>
         </div>
   
-        <div class="bg-darkbluebg ">
+        <!-- <div class="bg-darkbluebg ">
             <div class=" dropdown w-4/6 mx-6 lg:w-3/5 border-green-900 border-2 flex justify-center items-center">
             
                 <ul class="flex w-full  lg:w-3/6">
@@ -37,7 +37,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> -->
         <div class="dropdown">
             <ul>
                 <li><a href=""> home</a></li>

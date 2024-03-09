@@ -17,7 +17,7 @@
         </div>  */
 
 .headerimg{
-    background-image: url("@/assets/header-bg.png");
+    /* background-image: url("@/assets/header-bg.png"); */
     background-repeat: no-repeat;
    background-size: cover;
 
