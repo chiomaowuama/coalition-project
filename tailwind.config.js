@@ -12,6 +12,6 @@ export default {
       textstyle:["Bebas Neue"]
     },
   },
-  plugins: [],
+  plugins: [ require("tailwind-scrollbar"),],
 }
 

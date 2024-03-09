@@ -2,13 +2,14 @@
 import { ref, onMounted } from 'vue';
 
 const thescroll = ref(false)
+let scrollmovment= ref(0)
 console.log(thescroll)
 
 
 function handlescroll(){
     if(thescroll !== true){
-        
-        console.log(" nice")
+       scrollmovment =  window.scrollY;
+        console.log(scrollmovment)
     }
     else{
        console.log("not nice")
@@ -18,9 +19,9 @@ function handlescroll(){
     // console.log("hello")
 }
 
-onMounted(() => {
-    handlescroll()
-})
+// onMounted(() => {
+//     handlescroll()
+// })
 
 
 
@@ -29,7 +30,7 @@ onMounted(() => {
 </script>
 <template>
     
-    <div class="z-50 fixed w-full flex  justify-center items-center border border-black " ref="thescroll">
+    <div class="z-50 fixed w-full flex  justify-center items-center border border-black " ref="thescroll" @mousedown=" handlescroll()" @mousemove=" handlescroll()" @mousewheel=" handlescroll()">
         <div class=" w-5/6  flex py-2">
             <div class=" w-2/6 flex justify-center items-center ">
                 <img src="@/assets/nav-logo.png" alt="" class="w-8 lg:w-10">
