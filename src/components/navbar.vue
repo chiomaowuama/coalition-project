@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-const thescroll = ref(false)
+let thescroll = ref(false)
 let scrollmovment= ref(0)
 console.log(thescroll)
 
