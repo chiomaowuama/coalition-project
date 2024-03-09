@@ -19,9 +19,9 @@ function handlescroll(){
     // console.log("hello")
 }
 
-// onMounted(() => {
-//     handlescroll()
-// })
+onMounted(() => {
+    handlescroll()
+})
 
 
 
