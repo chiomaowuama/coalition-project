@@ -5,3 +5,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.headerimg{
+    background-image: url("@/assets/header-bg.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.history{
+    background-image: url("@/assets/history-bg.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.climb{
+    background-image: url("@/assets/footer-bg.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+}

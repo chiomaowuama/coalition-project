@@ -4,7 +4,7 @@
 </script>
 <template>
     
-    <div class=" flex  justify-center items-center border border-black">
+    <div class="z-50 fixed w-full flex  justify-center items-center border border-black">
         <div class=" w-5/6  flex py-2">
             <div class=" w-2/6 flex justify-center items-center ">
                 <img src="@/assets/nav-logo.png" alt="" class="w-8 lg:w-10">
