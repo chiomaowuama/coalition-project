@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "darkbluebg":"#2c3c4d"
+      }
+    },
     fontFamily:{
       smallertext:["lato"],
       oswald:["Oswald"],
