@@ -6,6 +6,15 @@
 @tailwind components;
 @tailwind utilities;
 
+       /* <div class="bg-darkbluebg ">
+            <div class="w-4/6 mx-6 lg:w-3/5 border-green-900 border-2 flex justify-center items-center">
+            
+                <ul class="flex w-full  lg:w-3/6">
+                    <li class="w-1/2  text-sm font-oswald hover:bg-gray-500 hover:text-darkbluebg lg:text-base  text-center"> <span class="border-2 border-yellow-900 border-t-0 border-l-0 border-r-0">MOUNTAIN 1</span></li>
+                    <li class="w-1/2  text-sm font-oswald hover:bg-gray-500 hover:text-darkbluebg lg:text-base  text-center"><span class="border-2 border-yellow-900 border-t-0 border-l-0 border-r-0">MOUNTAIN 2</span></li>
+                </ul>
+            </div>
+        </div>  */
 
 .headerimg{
     background-image: url("@/assets/header-bg.png");
@@ -33,33 +42,32 @@
     background-position: center;
 }
 /* the popup */
-.collapsible{
-    max-width: 450px;
-    overflow: hidden;
-    font-weight: 500;
+.dropdown ul, .dropdown li{
+    margin: 0;
+    padding: 0;
 }
-.collapsible label{
+.dropdown ul{
+    /* background-color: ; */
+    list-style: none;
+    width: 100px;
+}
+.dropdown li{
     position: relative;
-    font-weight: 600;
-    background-color: white;
-    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1) 0 4px 0 rgba(0, 0, 0, .8);
-    display: block;
-    margin-bottom: 10px;
-    cursor: pointer;
-    padding: 15px 0;
-    border-radius: 4px;
-    z-index: 1;
-
+    float: left;
+    width:auto
 }
-.collapsible label::after{
-    content: "";
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    width: 18px;
-    height: 18px;
-    background-color: yellow ;
+.dropdown span{
+    background-color: green;
+    color:white;
+    display: block;
+    font-weight: bold;
+    padding:15px 55px;
+    text-align: center;
+    text-decoration: none;
     transition: all 0.3s ease;
+}
+.dropdown li:hover span{
+    background-color: yellow;
 }
 
 

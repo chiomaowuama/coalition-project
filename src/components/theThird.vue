@@ -17,35 +17,47 @@
 
             </div>
         </div>
-        <!-- <div class="bg-darkbluebg ">
-            <div class="w-4/6 mx-6 lg:w-3/5 border-green-900 border-2 flex justify-center items-center">
+  
+        <div class="bg-darkbluebg ">
+            <div class=" dropdown w-4/6 mx-6 lg:w-3/5 border-green-900 border-2 flex justify-center items-center">
             
                 <ul class="flex w-full  lg:w-3/6">
-                    <li class="w-1/2  text-sm font-oswald hover:bg-gray-500 hover:text-darkbluebg lg:text-base  text-center"> <span class="border-2 border-yellow-900 border-t-0 border-l-0 border-r-0">MOUNTAIN 1</span></li>
-                    <li class="w-1/2  text-sm font-oswald hover:bg-gray-500 hover:text-darkbluebg lg:text-base  text-center"><span class="border-2 border-yellow-900 border-t-0 border-l-0 border-r-0">MOUNTAIN 2</span></li>
+                    <li class="w-1/2  text-sm font-oswald lg:text-base  text-center"> <span class="border-2 border-yellow-900 border-t-0 border-l-0 border-r-0">MOUNTAIN 1</span>
+                        <ul id="submenu" class="flex">
+                            <li><span>svg Canvas</span></li>
+                            <li><span>svg Canvas</span></li>
+                            <li><span>svg Canvas</span></li>
+                            
+                        </ul>
+                    
+                    </li>
+                    
+                    <li class="w-1/2  text-sm font-oswald hover:bg-gray-500 hover:text-darkbluebg lg:text-base  text-center"><span class="border-2 border-yellow-900 border-t-0 border-l-0 border-r-0">MOUNTAIN 2</span>
+                 
+                    </li>
                 </ul>
             </div>
-        </div> -->
-        <div class="bg-darkbluebg wrap "> 
-            <!-- flex justify-center items-center -->
-            <div class="collapsible w-4/6 mx-6 lg:w-3/5 border-green-900 border-2   ">
-                <input type="checkbox" name="" id="collapsible-head">
-                <label for="collapsible-head" class="text-green-700"> hello</label>
-                <div class="collapsibletext">
-                    <h1 >heading</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis modi ex ratione? In, repellat. Provident tenetur molestias, nobis inventore, dolorem sed itaque placeat nisi beatae corporis quisquam dicta quis?</p>
-
-                </div>
-            
-                <!-- <ul class="flex w-full  lg:w-3/6"> -->
-                    <!-- <li class="w-1/2  text-sm font-oswald hover:bg-gray-500 hover:text-darkbluebg lg:text-base  text-center"> <span class="border-2 border-yellow-900 border-t-0 border-l-0 border-r-0">MOUNTAIN 1</span></li> -->
-                    <!-- <li class="w-1/2  text-sm font-oswald hover:bg-gray-500 hover:text-darkbluebg lg:text-base  text-center"><span class="border-2 border-yellow-900 border-t-0 border-l-0 border-r-0">MOUNTAIN 2</span></li> -->
-                <!-- </ul> -->
-            </div>
         </div>
+        <div class="dropdown">
+            <ul>
+                <li><a href=""> home</a></li>
+                <li><a href=""> mountain 1</a>
+                    <ul id="submenu">
+                        <li><a href=""></a></li>
+                    </ul>
 
-        hello
+                </li>
+                <li><a href=""> mountain 2</a></li>
+                <li><a href=""> home</a></li>
+            </ul>
+
+        </div>
+        
     </div>
+
+
+        <!-- hello -->
+    
   
 </template>
 
