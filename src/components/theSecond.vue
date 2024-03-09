@@ -2,8 +2,11 @@
     
     </script>
 <template>
-  <div class="w-full h-screen history">
-    <h1 > the second</h1>
+  <div class="w-full h-screen history background-container">
+    <!-- <div class="background-container"> -->
+    <h1 class="text-behind">Your Text Here</h1>
+    
+  <!-- </div> -->
   </div>
 </template>
 
