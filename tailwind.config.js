@@ -9,7 +9,9 @@ export default {
     extend: {
       colors:{
         "darkbluebg":"#2c3c4d",
-        "darktext":"#789fc1cc"
+        "footerbluebg":"#415469",
+        "darktext":"#597399d4"
+        // "darktext":"#789fc1cc"
       }
     },
     fontFamily:{
