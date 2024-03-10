@@ -1,6 +1,5 @@
-    
-    <script setup>
-    
+
+    <script setup>    
     </script>
 <template>
     <div  class="climb w-full h-screen  background-container">
@@ -17,8 +16,8 @@
 
             </div>
         </div>
-  
-        <!-- <div class="bg-darkbluebg ">
+<!--   
+         <div class="bg-darkbluebg ">
             <div class=" dropdown w-4/6 mx-6 lg:w-3/5 border-green-900 border-2 flex justify-center items-center">
             
                 <ul class="flex w-full  lg:w-3/6">
@@ -37,20 +36,32 @@
                     </li>
                 </ul>
             </div>
-        </div> -->
-        <div class="dropdown">
-            <ul>
-                <li><a href=""> home</a></li>
-                <li><a href=""> mountain 1</a>
-                    <ul id="submenu">
-                        <li><a href=""></a></li>
-                    </ul>
+        </div>  -->
+        <div class="">
+            <div class="myaccordion list-none bg-darkbluebg  border-2 border-yellow-500">
+                <ul class=" border-2 border-green-600 w-4/6 mx-auto flex list-none bg-darkbluebg">
+                    
+                    <li  class="float-left relative py-2 hover:bg-gray-500 font-oswald tracking-wide  w-1/4 border-2 border-black"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block">MOUNTAIN 1</a>
+                        <ul id="Textbox1" class="">
+                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block" >mountain a</a></li>
+                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block">mountain b</a></li>
+                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block">mountain c</a></li>
+                        </ul>
+    
+                    </li>
+                    <li  class="float-left relative py-2 hover:bg-gray-500 font-oswald tracking-wide   w-1/4 border-2 border-black"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block"> MOUNTAIN 2</a>
+                        <ul id="Textbox2" class="">
+                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block" >mountain a</a></li>
+                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block">mountain b</a></li>
+                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block">mountain c</a></li>
+                        </ul>
+    
+                    </li>
 
-                </li>
-                <li><a href=""> mountain 2</a></li>
-                <li><a href=""> home</a></li>
-            </ul>
-
+                
+                </ul>
+    
+            </div>
         </div>
         
     </div>

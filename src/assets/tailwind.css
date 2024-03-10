@@ -52,33 +52,68 @@
     background-position: center;
 }
 /* the popup */
-.dropdown ul, .dropdown li{
-    margin: 0;
-    padding: 0;
-}
-.dropdown ul{
-    /* background-color: ; */
-    list-style: none;
-    width: 100px;
-}
-.dropdown li{
-    position: relative;
+
+/* .dropdown ul{ */
+    /* background:grey ; */
+    /* list-style: none; */
+    /* width: 100px; */
+/* } */
+/* .dropdown li{
     float: left;
-    width:auto
-}
-.dropdown span{
-    background-color: green;
+    position: relative;
+   
+} */
+.myaccordion a{
+    /* background-color:#30a6e6;
     color:white;
     display: block;
     font-weight: bold;
+    font-size: 13px;
     padding:15px 55px;
-    text-align: center;
+    text-align: center; */
     text-decoration: none;
     transition: all 0.3s ease;
 }
-.dropdown li:hover span{
+/* .dropdown li:hover a{
     background-color: yellow;
+} */
+#Textbox1{
+    border:2px solid red;
+    left:0;
+    opacity: 0;
+    position: absolute;
+    top:85px;
+    display: hidden;
+    z-index: 1;
 }
+li:hover ul#Textbox1{
+    opacity: 1;
+    top:80px;
+    visibility: visible ;
+}
+#Textbox1 li{
+    float: none;
+    /* width: 100%; */
+}
+#Textbox2{
+    border:2px solid red;
+    left:0;
+    opacity: 0;
+    position: absolute;
+    top:85px;
+    display: hidden;
+    z-index: 1;
+}
+li:hover ul#Textbox2{
+    opacity: 1;
+    top:80px;
+    visibility: visible ;
+}
+#Textbox2 li{
+    float: none;
+    /* width: 100%; */
+}
+
 
 
   
