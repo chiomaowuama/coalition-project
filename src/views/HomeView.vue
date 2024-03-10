@@ -12,14 +12,19 @@ const components ={
   theThird: ref(null),
 
 }
+
+const useCompononet = (component) =>{
+  components[component]?.value?.scrollIntoView("Scoll-smooth");
+  console.log(component);
+}
   
-const useCompononet = (component) => components[component]?.value?.scrollIntoView({ behavior: 'smooth' });
+// const useCompononet = (component) => components[component]?.value?.scrollIntoView({ behavior: 'smooth' });
 
     
 </script>
 <template>
   <div>
-    <navbar @goToSection="useCompononet" />
+    <navbar :goToComponent="useCompononet" />
     <theFirst />
     <theSecond ref="component.theSecond" />
     <theThird ref="component.theThird"/>
