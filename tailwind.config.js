@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       colors:{
-        "darkbluebg":"#2c3c4d"
+        "darkbluebg":"#2c3c4d",
+        "darktext":"#789fc1cc"
       }
     },
     fontFamily:{
