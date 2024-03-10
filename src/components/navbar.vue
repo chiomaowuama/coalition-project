@@ -24,8 +24,9 @@ const activeLink = ref('');
 const props = defineProps(['goToComponent']);
 
 const setActiveLink = (link) =>{
-   activeLink = link
-    props.goToComponent(link)
+   activeLink.value = link
+    // props.goToComponent(link)
+    emit('goToComponent', link)
     console.log(link)
 }
 

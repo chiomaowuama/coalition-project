@@ -13,8 +13,8 @@ const components ={
 
 }
 
-const useCompononet = (component) =>{
-  components[component]?.value?.scrollIntoView({behavior: 'smooth'});
+const useComponent = (component) =>{
+  components[component]?.value?.$el.scrollIntoView({ behavior: 'smooth' });
   console.log(component);
 }
   
@@ -24,7 +24,7 @@ const useCompononet = (component) =>{
 </script>
 <template>
   <div>
-    <navbar :goToComponent="useCompononet" />
+    <navbar :goToComponent="useComponent" />
     <theFirst />
     <theSecond ref="component.theSecond" />
     <theThird ref="component.theThird"/>
