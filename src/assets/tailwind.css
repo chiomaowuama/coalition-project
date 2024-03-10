@@ -16,11 +16,40 @@
             </div>
         </div>  */
 
-.headerimg{
-    /* background-image: url("@/assets/header-bg.png"); */
-    background-repeat: no-repeat;
-   background-size: cover;
+/* 
+        <!-- <h1>helo</h1> -->
+        <!-- bject-cover h-screen -->
+        <!-- <div  class=" absolute top-20 z-10 border-2 border-red-600">
+          <p>LOSANGELES</p>
+          <p>MOUNTAINS</p>
+        </div> -->
+        <!-- <div class="border-2 border-green-900  w-3/6 font-textstyle text-9xl tracking-wide font-semibold absolute top-36 left-80 ">
+            <p>LOSANGELES</p>
+            <p>MOUNTAINS</p>
+         </div>  */
 
+.heading{
+    position: relative;
+    display: inline-block; 
+    
+}
+.changes{
+    /* opacity: 0.9; */
+    width: 100%;
+    height: auto;
+    display: block;
+    /* opacity: 0.8; */
+}
+.notes{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Set text color */
+    font-size: 20px; /* Set font size */
+    font-weight: bold; /* Set font weight if needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+    z-index: 1; /* Move the text behind the image */
 }
 /* second */
 .history{

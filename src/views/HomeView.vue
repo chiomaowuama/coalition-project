@@ -10,10 +10,10 @@ import theThird from "@/components/theThird.vue";
 </script>
 <template>
   <div>
-    <navbar />
+    <!-- <navbar /> -->
     <theFirst />
-    <theSecond />
-    <theThird/>
+    <!-- <theSecond /> -->
+    <!-- <theThird/> -->
     
     
     <!-- hello -->
