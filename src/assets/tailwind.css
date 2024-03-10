@@ -78,17 +78,22 @@
     background-color: yellow;
 } */
 #Textbox1{
-    border:2px solid red;
+    /* border:2px solid red; */
     left:0;
     opacity: 0;
     position: absolute;
-    top:85px;
+    top:135px;
     display: hidden;
     z-index: 1;
+    width:100%;
+    background-color: white;
 }
+
 li:hover ul#Textbox1{
+    background-color: rgba(254, 254, 254, 0.463);
     opacity: 1;
-    top:80px;
+    top:130px;
+ 
     visibility: visible ;
 }
 #Textbox1 li{
@@ -96,23 +101,46 @@ li:hover ul#Textbox1{
     /* width: 100%; */
 }
 #Textbox2{
-    border:2px solid red;
+   
     left:0;
     opacity: 0;
     position: absolute;
-    top:85px;
+    top:135px;
     display: hidden;
     z-index: 1;
+    width:100%;
+    background-color: white;
 }
 li:hover ul#Textbox2{
     opacity: 1;
-    top:80px;
+    top:130px;
     visibility: visible ;
+    background-color: rgba(254, 254, 254, 0.463);
+
 }
 #Textbox2 li{
     float: none;
     /* width: 100%; */
 }
+@media screen and (max-width: 790px){
+    #Textbox1{
+        top:40px;
+    }
+    
+    li:hover ul#Textbox1{
+        top:40px;
+     
+    }
+    #Textbox2{
+        top:40px;
+    }
+    
+    li:hover ul#Textbox2{
+        top:40px;
+     
+    }
+}
+
 
 
 

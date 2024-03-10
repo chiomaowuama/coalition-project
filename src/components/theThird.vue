@@ -16,44 +16,50 @@
 
             </div>
         </div>
-<!--   
-         <div class="bg-darkbluebg ">
-            <div class=" dropdown w-4/6 mx-6 lg:w-3/5 border-green-900 border-2 flex justify-center items-center">
-            
-                <ul class="flex w-full  lg:w-3/6">
-                    <li class="w-1/2  text-sm font-oswald lg:text-base  text-center"> <span class="border-2 border-yellow-900 border-t-0 border-l-0 border-r-0">MOUNTAIN 1</span>
-                        <ul id="submenu" class="flex">
-                            <li><span>svg Canvas</span></li>
-                            <li><span>svg Canvas</span></li>
-                            <li><span>svg Canvas</span></li>
-                            
-                        </ul>
-                    
-                    </li>
-                    
-                    <li class="w-1/2  text-sm font-oswald hover:bg-gray-500 hover:text-darkbluebg lg:text-base  text-center"><span class="border-2 border-yellow-900 border-t-0 border-l-0 border-r-0">MOUNTAIN 2</span>
-                 
-                    </li>
-                </ul>
-            </div>
-        </div>  -->
+
         <div class="">
-            <div class="myaccordion list-none bg-darkbluebg  border-2 border-yellow-500">
-                <ul class=" border-2 border-green-600 w-4/6 mx-auto flex list-none bg-darkbluebg">
+            <div class="myaccordion list-none bg-darkbluebg  ">
+                <ul class=" w-5/6 lg:w-4/6 mx-auto flex list-none bg-darkbluebg">
                     
-                    <li  class="float-left relative py-2 hover:bg-gray-500 font-oswald tracking-wide  w-1/4 border-2 border-black"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block">MOUNTAIN 1</a>
-                        <ul id="Textbox1" class="">
-                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block" >mountain a</a></li>
-                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block">mountain b</a></li>
-                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block">mountain c</a></li>
+                    <li  class="float-left relative py-2 hover:bg-gray-500 font-oswald tracking-wide w-3/6  lg:w-1/4 "><a href="" class="bg-darkbuebg text-white font-sm lg:font-base font-bold  text-center block"> <span class="hover:border-2 hover:border-darkbluebg hover:border-l-0 hover:border-r-0 hover:border-t-0  ">MOUNTAIN 1</span></a>
+                        <ul id="Textbox1">
+                            <!-- <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block" >mountain a</a></li> -->
+                            <h1 class="font-oswald  text-sm lg:text-2xl font-bold px-4 pt-2 text-darkbluebg">SCHEDULE</h1>
+                            <div class="flex justify-between md:justify-around lg:justify-between  p-2 lg:p-4 items-center">
+                                <div class="font-smalltext text-xs lg:text-sm font-light">
+                                    <p>25 Nov 2016</p>
+                                    <p>28 Nov 2016</p>
+                                    <p class="my-3">28 Nov 2016</p>
+                                    <p>28 Nov 2016</p>
+                                </div>
+                                <div class="font-smalltext  text-xs lg:text-sm font-light">
+                                    <p>Vestibulum  viverra</p>
+                                    <p>Vestibulum  viverra</p>
+                                    <p class="my-3">Vestibulum  viverra</p>
+                                    <p>Vestibulum  viverra</p>
+                                </div>
+                            </div>
+                            
                         </ul>
     
                     </li>
-                    <li  class="float-left relative py-2 hover:bg-gray-500 font-oswald tracking-wide   w-1/4 border-2 border-black"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block"> MOUNTAIN 2</a>
+                    <li  class="float-left relative py-2 hover:bg-gray-500 font-oswald tracking-wide w-3/6  lg:w-1/4 "><a href="" class="bg-darkbuebg text-white font-sm lg:font-base font-bold py-15 px-55 text-center block"><span class="hover:border-2 hover:border-darkbluebg hover:border-l-0 hover:border-r-0 hover:border-t-0  ">MOUNTAIN 2</span></a>
                         <ul id="Textbox2" class="">
-                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block" >mountain a</a></li>
-                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block">mountain b</a></li>
-                            <li  class="float-left relative"><a href="" class="bg-darkbuebg text-white font-base font-bold py-15 px-55 text-center block">mountain c</a></li>
+                            <h1 class="font-oswald text-sm lg:text-2xl font-bold px-4 pt-2 text-darkbluebg">SCHEDULE</h1>
+                            <div class="flex justify-between p-2 lg:p-4 items-center">
+                                <div class="font-smalltext text-xs lg:text-sm font-light">
+                                    <p>25 Nov 2016</p>
+                                    <p>28 Nov 2016</p>
+                                    <p class="my-3">28 Nov 2016</p>
+                                    <p>28 Nov 2016</p>
+                                </div>
+                                <div class="font-smalltext  text-xs lg:text-sm font-light">
+                                    <p>Vestibulum  viverra</p>
+                                    <p>Vestibulum  viverra</p>
+                                    <p class="my-3">Vestibulum  viverra</p>
+                                    <p>Vestibulum  viverra</p>
+                                </div>
+                            </div>
                         </ul>
     
                     </li>
