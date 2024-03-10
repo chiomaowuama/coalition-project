@@ -14,7 +14,7 @@ const components ={
 }
 
 const useCompononet = (component) =>{
-  components[component]?.value?.scrollIntoView("Scoll-smooth");
+  components[component]?.value?.scrollIntoView({behavior: 'smooth'});
   console.log(component);
 }
   
