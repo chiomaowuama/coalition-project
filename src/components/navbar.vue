@@ -19,7 +19,10 @@ function handlescroll(){
 
     // console.log("hello")
 }
+const links =['theSecond', 'theThird'];
+const activeLink = ref('');
 
+const setActiveLink = (link) => activeLink.value = link;
 onMounted(() => {
     handlescroll()
     window.addEventListener("scroll", handlescroll)
@@ -36,8 +39,8 @@ onMounted(() => {
             </div>
             <div class="w-4/6 flex flex-col justify-items-end items-end">
                 <ul class="  flex my-auto w-5/6 lg:w-3/6 justify-around text-xs lg:text-sm font-smallertext italic font-medium">
-                    <li class="border border-white border-t-0 border-l-0 border-r-0">01. HISTORY</li>
-                    <li class="border border-white border-t-0 border-l-0 border-r-0">02. TEAM</li>
+                    <li class="border border-white border-t-0 border-l-0 border-r-0"><a @click="useCompononet('theSecond')">01. HISTORY</a></li>
+                    <li class="border border-white border-t-0 border-l-0 border-r-0"><a @click="useCompononet('theThird')">02. TEAM </a></li>
                 </ul>
             </div>
         </div>

@@ -10,8 +10,8 @@ export default {
       colors:{
         "darkbluebg":"#2c3c4d",
         "footerbluebg":"#415469",
-        "darktext":"#597399d4"
-        // "darktext":"#789fc1cc"
+        "darktext":"#597399d4",
+        "darkbrown":"#311e10"
       }
     },
     fontFamily:{
