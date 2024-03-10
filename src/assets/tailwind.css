@@ -16,6 +16,15 @@
             </div>
         </div>  */
 
+/* nav */
+.scrolling{
+    /* border:2px solid red; */
+    background-color: white;
+    color:#2c3c4d;
+    box-shadow:  0 6px 15px 0 rgba(0, 0, 0, 0.15)
+    /* border-bottom:#2c3c4d ; */
+    
+}
 
 /* second */
 .history{
