@@ -37,8 +37,10 @@
     background-image: url("@/assets/history-bg.png");
     background-repeat: no-repeat;
    background-size: cover;
-   position: relative;
-   overflow: hidden; /* Hide the overflow content */
+   background-position-y: 25%;
+   /* width: 1; */
+   /* position: relative; */
+   overflow: hidden; 
   
  
    /* background-position: ; */
@@ -53,30 +55,12 @@
 }
 /* the popup */
 
-/* .dropdown ul{ */
-    /* background:grey ; */
-    /* list-style: none; */
-    /* width: 100px; */
-/* } */
-/* .dropdown li{
-    float: left;
-    position: relative;
-   
-} */
 .myaccordion a{
-    /* background-color:#30a6e6;
-    color:white;
-    display: block;
-    font-weight: bold;
-    font-size: 13px;
-    padding:15px 55px;
-    text-align: center; */
+
     text-decoration: none;
     transition: all 0.3s ease;
 }
-/* .dropdown li:hover a{
-    background-color: yellow;
-} */
+
 #Textbox1{
     /* border:2px solid red; */
     left:0;
