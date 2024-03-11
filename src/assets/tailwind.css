@@ -47,55 +47,38 @@
 }
 /* the carousel */
 .shortbody{
-    min-height: auto;
-    display: flex;
+    /* height:1; */
+    display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #efefef;
+    background: #fff;
 }
-.slide-content{
-    margin: 0 40px;
+section .card .image{
+    height: 140px;
+    width:140px;
 }
-.image-content{
-    display:flex;
+.shortbody .card .image {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    /* border:2px solid yellow; */
+}
+.card::after
+.card{
+    background-color: #f29e9e;
+    border-radius: 20px;
+    /* border:2px solid red; */
+}
+.card .card-content{
+    display: flex;
     flex-direction: column;
     align-items: center;
-   padding:10px 14px;
-   position: relative;
-   row-gap: 5px;
-   
-}
-.overlay{
-    position:absolute;
-    top:0;
-    left:0;
-    background-color: #4070F4;
-    height:100%;
-    width:100%;
-    border-radius: 25px 25px 0 25px;
-}
-.card{
-    width:320px;
-    border-radius:25px ;
-    background-color: #fff;
-}
-.card-image{
+    padding: 5px;
     position: relative;
-    height:150px;
-    width:150px;
-    border-radius: 50%;
-    background-color: #fff;
-    padding: 3px;
 
 }
-.card-img{
-    height:100%;
-    width:100%;
-    object-fit: cover ;
-    border-radius: 50%;
-    border:2px solid #4070f0;
 
-}
+
 
 /* third */
 .climb{

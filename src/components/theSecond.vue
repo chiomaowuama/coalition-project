@@ -31,29 +31,21 @@ onMounted(() => {
         <!-- hello -->
       
         <div class="border-2 border-green-900  shortbody ">
-          <div class="slide-container">
-            <div class="slide-content">
-              <div class="class-wrapper">
+          <section>
+            <div class="container">
+              <div class="content">
                 <div class="card">
-                  <div class="image-content">
-                    <span class="overlay"></span>
-  
-                    <div class="card-image">
+                  <div class="card-content">
+                    <div class="image">
+                      <!-- <span class="overlay"></span> -->
                       <img src="@/assets/thumbnail-1.png" alt="" srcset="" class="card-img">
-                      <!-- <img src="@/assets/thumbnail-2.png" alt="" srcset=""> -->
                     </div>
-                  </div>
-                </div> 
-                <!-- <div class="card-content">
-                  <h2 class="name">David dell</h2>
-                  <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aut incidunt officiis nulla sed aspernatur omnis iure veniam totam explicabo?</p>
-                  <button type="button">View More</button>
-                </div> -->
-  
+                  </div> 
+                </div>
               </div>
+  
             </div>
-
-          </div>
+          </section>
         </div>
       
 
