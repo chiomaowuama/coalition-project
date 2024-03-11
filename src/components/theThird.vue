@@ -1,8 +1,22 @@
 
-    <script setup>    
+    <script setup> 
+  import { ref, onMounted } from 'vue';
+
+    const myComponentRef = ref(null);
+    // const componentRef = ref(null);
+    const scrollIntoView = () => {
+        console.log('hello');
+        console.log('Scrolling into view:', myComponentRef.value);
+        myComponentRef.value.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    onMounted(() => {
+        console.log('Component mounted 2:', myComponentRef );
+    });
+
     </script>
 <template>
-    <div  class="climb w-full h-screen  background-container">
+    <div  class="climb w-full h-screen  background-container" id="theThird" ref="myComponentRef">
         <div class=" bg-white ">
             <div class=" w-5/6 lg:w-4/6   flex mx-auto py-3">
                 <div class="  w-2/6 lg:w-2/6 flex justify-center items-center ">

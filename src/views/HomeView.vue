@@ -1,45 +1,54 @@
+<!-- HomeView.vue -->
 <script setup>
 import { ref } from "vue";
-import navbar from "@/components/navbar.vue";
+import Navbar from "@/components/navbar.vue";
 import theFirst from "@/components/theFirst.vue";
 import theSecond from "@/components/theSecond.vue";
 import theThird from "@/components/theThird.vue";
 import footerSection from "@/components/footerSection.vue";
 
-const components ={
-  thefirst: ref(null),
-  theSecond: ref(null),
-  theThird: ref(null),
+const theFirstRef = ref(null);
+const theSecondRef = ref(null);
+const theThirdRef = ref(null);
+const link = ref(null)
 
-}
-
-const useComponent = (component) =>{
-  console.log('Scrolling to',component);
-  components[component]?.value?.scrollIntoView({ behavior: 'smooth' });
-  // console.log(element)
-  // const element = document.getElementById(component); // Assuming you have an id on your elements
-  // element.scrollIntoView({ behavior: 'smooth' });
-  // components[component]?.value?.$el.scrollIntoView({ behavior: 'smooth' });
-}
-  
-// const useCompononet = (component) => components[component]?.value?.scrollIntoView({ behavior: 'smooth' });
-
+const useComponent = (component) => {
+  if(component){
+    scrollIntoComponent(theFirstRef, component);
+  }
+  if(component){
+    scrollIntoComponent(theSecondRef, component);
+  }
+  if(component){
+    scrollIntoComponent(theThirdRef, component);
+  }else(
+    console.log("no")
+    )
+  };
+  const scrollIntoComponent = (linking, component) => {
+  console.log('the  body', link)
+  link.value = linking.component
+  // linking.value = component;
+  // if(linking.value != false){
+  //   console.log(linking.value)
     
+  // }else{
+  //   console.log("no")
+  // }
+      // console.log('Scrolling into view:', myComponentRef.value);
+      //   myComponentRef.value.scrollIntoView({ behavior: 'smooth' });
+    };
 </script>
+
 <template>
   <div>
     <navbar @goToComponent="useComponent" />
-    <theFirst />
-    <theSecond ref="theSecond" />
-    <theThird ref="theThird"/>
+    <theFirst ref="theFirstRef" />
+    <theSecond ref="theSecondRef" />
+    <theThird ref="theThirdRef" />
     <footerSection />
-    
-    
-    <!-- hello -->
   </div>
 </template>
 
-
 <style>
-
 </style>

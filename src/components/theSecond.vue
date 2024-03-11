@@ -1,9 +1,21 @@
     <script setup>
    
-    
+   import { ref, onMounted } from 'vue';
+
+// const myComponentRef = ref(null);
+    const myComponentRef = ref(null);
+    // const componentRef = ref(null);
+    const scrollIntoView = () => {
+      console.log('Scrolling into view:', myComponentRef.value);
+        myComponentRef.value.scrollIntoView({ behavior: 'smooth' });
+    };
+
+onMounted(() => {
+    console.log('Component mounted:', myComponentRef);
+});
     </script>
 <template>
-  <div class="w-full h-screen history background-container" >
+  <div class="w-full h-screen history background-container" id="theSecond" ref="myComponentRef">
     <!-- <div class="background-container"> -->
     <div class="flex flex-col justify-between h-screen ">
       

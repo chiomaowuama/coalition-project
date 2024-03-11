@@ -1,4 +1,17 @@
 <script setup>
+  import { ref, onMounted } from 'vue';
+
+const myComponentRef = ref(null);
+
+    // const componentRef = ref(null);
+    // const scrollIntoView = () => {
+    //   console.log('Scrolling into view:', myComponentRef.value);
+    //     myComponentRef.value.scrollIntoView({ behavior: 'smooth' });
+    // };
+
+onMounted(() => {
+    console.log('Component mounted 3:', myComponentRef);
+});
 
 </script>
 
@@ -6,7 +19,7 @@
 <template>
   <!-- relative -->
   <!-- overflow-hidden -->
-  <div class=" heading   relative w-full h-screen  overflow-hidden ">
+  <div class=" heading   relative w-full h-screen  overflow-hidden" id="theFirst" ref="myComponentRef">
     <img src="@/assets/header-bg.png" alt="" srcset="" class=" object-cover h-screen lg:h-fit relative z-1 lg:object-contain mix-blend-overlay "/>
     <img src="@/assets/header-overlay.png" alt="" srcset="" class="absolute top-0 left-0 object-left-top mix-blend-overlay object-contain  h-screen lg:h-fit lg:object-contain"/>
 
