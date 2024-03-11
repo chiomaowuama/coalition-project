@@ -14,8 +14,12 @@ const components ={
 }
 
 const useComponent = (component) =>{
-  components[component]?.value?.$el.scrollIntoView({ behavior: 'smooth' });
-  console.log(component);
+  console.log('Scrolling to',component);
+  components[component]?.value?.scrollIntoView({ behavior: 'smooth' });
+  // console.log(element)
+  // const element = document.getElementById(component); // Assuming you have an id on your elements
+  // element.scrollIntoView({ behavior: 'smooth' });
+  // components[component]?.value?.$el.scrollIntoView({ behavior: 'smooth' });
 }
   
 // const useCompononet = (component) => components[component]?.value?.scrollIntoView({ behavior: 'smooth' });
@@ -24,10 +28,10 @@ const useComponent = (component) =>{
 </script>
 <template>
   <div>
-    <navbar :goToComponent="useComponent" />
+    <navbar @goToComponent="useComponent" />
     <theFirst />
-    <theSecond ref="component.theSecond" />
-    <theThird ref="component.theThird"/>
+    <theSecond ref="theSecond" />
+    <theThird ref="theThird"/>
     <footerSection />
     
     

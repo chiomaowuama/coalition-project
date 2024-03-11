@@ -1,5 +1,5 @@
 <script setup>
-import { ref, defineProps,defineEmits, onMounted } from 'vue';
+import { ref, defineProps, defineEmits, getCurrentInstance, onMounted } from 'vue';
 
 let thescroll = ref(false)
 let scrollmovment= ref(0)
@@ -22,13 +22,13 @@ function handlescroll(){
 
 const activeLink = ref('');
 const props = defineProps(['goToComponent']);
+const { emit } = defineEmits();
+const instance = getCurrentInstance();
 
-const setActiveLink = (link) =>{
-   activeLink.value = link
-    // props.goToComponent(link)
-    emit('goToComponent', link)
-    console.log(link)
-}
+const setActiveLink = (link) => {
+  activeLink.value = link;
+  instance.emit('goToComponent', link);
+};
 
 
 onMounted(() => {
