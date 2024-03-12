@@ -20,15 +20,7 @@ function handlescroll(){
     // console.log("hello")
 }
 
-// const activeLink = ref('');
-// const props = defineProps(['goToComponent']);
-// const { emit } = defineEmits();
-// const instance = getCurrentInstance();
-
-// const setActiveLink = (link) => {
-//   activeLink.value = link;
-//   instance.emit('goToComponent', link);
-// };
+// 
 
 
 onMounted(() => {

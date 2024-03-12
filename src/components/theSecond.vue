@@ -103,51 +103,8 @@ onMounted(() => {
         <!-- hello -->
       
         <div class="border-2 border-green-900   ">
-
-
-            <div class=" wrapper py-3 "  >
-              <div ref="carousel"  class="carousel scroll-smooth auto-cols-max  snap-mandatory overflow-auto  pl-10  gap-5 md:auto-rows-max " @mousedown="startDrag" @mousemove="handleDrag" @mouseup="endDrag" @scroll="infiniteScroll()">
-                <div class="card  w-32  md:w-60  rounded-xl "> 
-                  <div class="imgs flex h-60 md:h-80 justify-center rounded-xl items-center p-2 background thumb1">
-                          <!-- <img class="w-32 md:w-80 md:h-96 rounded-xl " src="https://pickt.io/malaika.png" alt="Malaika Ademola-Majekodunmi" > -->
-                  </div>
-                    
-                </div>
-                <div class="card  w-32  md:w-60  rounded-xl "> 
-                  <div class="imgs flex h-60 md:h-80 justify-center rounded-xl items-center p-2 background thumb2">
-                          <!-- <img class="w-32 md:w-80 md:h-96 rounded-xl " src="https://pickt.io/malaika.png" alt="Malaika Ademola-Majekodunmi" > -->
-                      </div>
-                </div>
-                <div class="card  w-32  md:w-60  rounded-xl "> 
-                  <div class="imgs flex h-60 md:h-80 justify-center rounded-xl items-center p-2 background history">
-                          <!-- <img class="w-32 md:w-80 md:h-96 rounded-xl " src="https://pickt.io/malaika.png" alt="Malaika Ademola-Majekodunmi" > -->
-                      </div>
-                </div> 
-                <div class="card  w-32  md:w-60  rounded-xl "> 
-                  <div class="imgs flex h-60 md:h-80 justify-center rounded-xl items-center p-2 background thumb1">
-                          <!-- <img class="w-32 md:w-80 md:h-96 rounded-xl " src="https://pickt.io/malaika.png" alt="Malaika Ademola-Majekodunmi" > -->
-                      </div>
-                    </div>
-                </div>
-                <div class="card  w-32  md:w-60  rounded-xl "> 
-                  <div class="imgs flex h-60 md:h-80 justify-center rounded-xl items-center p-2 background malakai">
-                          <!-- <img class="w-32 md:w-80 md:h-96 rounded-xl " src="https://pickt.io/malaika.png" alt="Malaika Ademola-Majekodunmi" > -->
-                  </div>
-                </div>            
-             </div>
-            
-        <!-- buttons -->
-        <!-- <div class=" flex py-16  px-10 " >
-            
-            <div class="hidden w-3/6 md:flex justify-center space-x-4 pb-16  ">
-                <button class="firstchild self-end border border-white-900 rounded-full p-5 hover:bg-blueishtext " @click="arrowBtns('left')" id="left" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"><path stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M9.57 5.93L3.5 12l6.07 6.07M20.5 12H3.67"></path></svg></button>
-                <button class="secondchild self-end border border-white-900 rounded-full p-5 hover:bg-blueishtext " @click="arrowBtns('right')" id="right"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"><path stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M14.43 5.93L20.5 12l-6.07 6.07M3.5 12h16.83"></path></svg></button>
-            </div>
-
-        </div> -->
-
-          
-        </div>
+          <p>here goes the slider</p>
+          </div>
       
 
     </div>
