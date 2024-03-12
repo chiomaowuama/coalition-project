@@ -20,15 +20,15 @@ function handlescroll(){
     // console.log("hello")
 }
 
-const activeLink = ref('');
-const props = defineProps(['goToComponent']);
-const { emit } = defineEmits();
-const instance = getCurrentInstance();
+// const activeLink = ref('');
+// const props = defineProps(['goToComponent']);
+// const { emit } = defineEmits();
+// const instance = getCurrentInstance();
 
-const setActiveLink = (link) => {
-  activeLink.value = link;
-  instance.emit('goToComponent', link);
-};
+// const setActiveLink = (link) => {
+//   activeLink.value = link;
+//   instance.emit('goToComponent', link);
+// };
 
 
 onMounted(() => {
@@ -47,8 +47,8 @@ onMounted(() => {
             </div>
             <div class="w-4/6 flex flex-col justify-items-end items-end">
                 <ul class="  flex my-auto w-5/6 lg:w-3/6 justify-around text-xs lg:text-sm font-smallertext italic font-medium">
-                    <li class="border border-white border-t-0 border-l-0 border-r-0 cursor-pointer"><a href="#theSecond" @click="setActiveLink('theSecond')" :class="{ active: activeLink === 'theSecond'}" >01. HISTORY</a></li>
-                    <li class="border border-white border-t-0 border-l-0 border-r-0 cursor-pointer"><a @click="setActiveLink('theThird')" :class="{ active: activeLink === 'theThird' }">02. TEAM </a></li>
+                    <li class="border border-white border-t-0 border-l-0 border-r-0 cursor-pointer "><a href="#theSecond"  @click="setActiveLink('theSecond')" :class="{ active: activeLink === 'theSecond'}" >01. HISTORY</a></li>
+                    <li class="border border-white border-t-0 border-l-0 border-r-0 cursor-pointer"><a href="#theThird" @click="setActiveLink('theThird')" :class="{ active: activeLink === 'theThird' }">02. TEAM </a></li>
                 </ul>
             </div>
         </div>
