@@ -1,5 +1,5 @@
     <script setup>
-   
+     import { Swiper, SwiperSlide } from 'swiper/vue';
 //  
  
 </script>
@@ -20,6 +20,7 @@
         <!-- hello -->
       
         <div class="border-2 border-green-900  smallbody flex justify-center items-center bg-darkbluebg">
+          <swiper></swiper>
           <div class="section">
             <div class="container">
               <div clas="content">
