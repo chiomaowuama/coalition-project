@@ -23,23 +23,24 @@ const modules = [Pagination];
         </div>
         <!-- hello -->
       
-        <div class="border-2 border-green-900  smallbody flex justify-center items-center bg-darkbluebg">
+        <div class="border-2 border-green-900  smallbody  p ">
+        <div class="w-4/5 mx-auto">
           <swiper
             :slidesPerView="4"
-            :spaceBetween="30"
+            :spaceBetween="8"
             :pagination="{
-              clickable: true,
+              clickable: true,  
             }"
             :modules="modules"
-            class="mySwiper"
+            class="mySwiper "
           >
             <swiper-slide v-for="i in 10" :key="i">
               <div class="section">
-                <div class="container">
-                  <div clas="content">
-                    <div class="card">
-                      <div class="card-content">
-                        <div class="image">
+                <div class="container ">
+                  <div clas="content ">
+                    <div class="card ">
+                      <div class="card-content ">
+                        <div class="image w-5/6">
                           <img src="@/assets/thumbnail-1.png" alt="">
                         </div>
                       </div>
@@ -49,6 +50,7 @@ const modules = [Pagination];
               </div>
             </swiper-slide>
           </swiper>
+        </div>
       </div>
     </div>
   </div>
