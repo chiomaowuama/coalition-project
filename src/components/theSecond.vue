@@ -1,22 +1,12 @@
     <script setup>
    
-//    import { computed, ref, onMounted } from 'vue';
-
-// // const myComponentRef = ref(null);
-//     const myComponentRef = ref(null);
-//     // const componentRef = ref(null);
-//     const scrollIntoView = () => {
-//       console.log('Scrolling into view:', myComponentRef.value);
-//         myComponentRef.value.scrollIntoView({ behavior: 'smooth' });
-//     };
-
-
+//  
  
 </script>
 <template>
   <div class="w-full h-screen history background-container" id="theSecond" ref="myComponentRef">
     <!-- <div class="background-container"> -->
-    <div class="flex flex-col justify-between h-screen ">
+      <div class="flex flex-col justify-between h-screen ">
       
         <div class="w-5/6 lg:w-4/6  flex flex-col mx-auto py-3 ">
           <div class="w-4/6 lg:w-2/6 flex  px-4 lg:px-0 lg:justify-center items-center  ">
@@ -29,14 +19,24 @@
         </div>
         <!-- hello -->
       
-        <div class="border-2 border-green-900   ">
-          <p>here goes the slider</p>
+        <div class="border-2 border-green-900  smallbody flex justify-center items-center bg-darkbluebg">
+          <div class="section">
+            <div class="container">
+              <div clas="content">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="image">
+                      <img src="@/assets/thumbnail-1.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-      
-
-    </div>
-    
-  <!-- </div> -->
+          <!-- <p>here goes the slider</p> -->
+        </div>
+  
+      </div>
   </div>
 </template>
 
