@@ -1,15 +1,5 @@
 
     <script setup> 
-//   import { ref, onMounted } from 'vue';
-
-    // const myComponentRef = ref(null);
-    // // const componentRef = ref(null);
-    // const scrollIntoView = () => {
-    //     console.log('hello');
-    //     console.log('Scrolling into view:', myComponentRef.value);
-    //     myComponentRef.value.scrollIntoView({ behavior: 'smooth' });
-    // };
-
 
     </script>
 <template>
