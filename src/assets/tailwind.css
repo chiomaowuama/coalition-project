@@ -10,8 +10,8 @@
   /* the slider  */
 
 .section .card .image{
-    height:140px;
-    width: 140px;
+    height:100px;
+    width: 100px;
     border-radius: 10%;
     padding: 3px;
     background:grey ;
@@ -22,7 +22,7 @@
     object-fit: cover;
     border-radius: 10%;
     border:3px solid white;
-    cursor: pointer  npm i swiper;
+    cursor: pointer  ;
 }
 .card{
     background: white;

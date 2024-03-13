@@ -1,7 +1,11 @@
-    <script setup>
-     import { Swiper, SwiperSlide } from 'swiper/vue';
-//  
- 
+<script setup>
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Pagination } from 'swiper/modules';
+    
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+const modules = [Pagination];
 </script>
 <template>
   <div class="w-full h-screen history background-container" id="theSecond" ref="myComponentRef">
@@ -20,24 +24,33 @@
         <!-- hello -->
       
         <div class="border-2 border-green-900  smallbody flex justify-center items-center bg-darkbluebg">
-          <swiper></swiper>
-          <div class="section">
-            <div class="container">
-              <div clas="content">
-                <div class="card">
-                  <div class="card-content">
-                    <div class="image">
-                      <img src="@/assets/thumbnail-1.png" alt="">
+          <swiper
+            :slidesPerView="4"
+            :spaceBetween="30"
+            :pagination="{
+              clickable: true,
+            }"
+            :modules="modules"
+            class="mySwiper"
+          >
+            <swiper-slide v-for="i in 10" :key="i">
+              <div class="section">
+                <div class="container">
+                  <div clas="content">
+                    <div class="card">
+                      <div class="card-content">
+                        <div class="image">
+                          <img src="@/assets/thumbnail-1.png" alt="">
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <!-- <p>here goes the slider</p> -->
-        </div>
-  
+            </swiper-slide>
+          </swiper>
       </div>
+    </div>
   </div>
 </template>
 
