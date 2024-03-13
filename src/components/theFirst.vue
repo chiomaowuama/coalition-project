@@ -1,7 +1,7 @@
 <script setup>
-  import { ref, onMounted } from 'vue';
+  // import { ref, onMounted } from 'vue';
 
-const myComponentRef = ref(null);
+// const myComponentRef = ref(null);
 
     // const componentRef = ref(null);
     // const scrollIntoView = () => {
@@ -9,9 +9,9 @@ const myComponentRef = ref(null);
     //     myComponentRef.value.scrollIntoView({ behavior: 'smooth' });
     // };
 
-onMounted(() => {
-    console.log('Component mounted 3:', myComponentRef);
-});
+// onMounted(() => {
+//     console.log('Component mounted 3:', myComponentRef);
+// });
 
 </script>
 
